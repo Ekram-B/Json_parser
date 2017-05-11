@@ -1,4 +1,7 @@
-Description - Tips for system use:
+Description:
+The task we to design a REST service capable towards parsing a JSON file received from the command line and outputting a list of all palindrome values seen in the file. All APIs were written with Python and the Flask web framework was used in order to design the web application. The loopback address is used to host the web application. The two exposed nodes that a user access use are GET:/palindromes and GET:/palindromes/count.  
+
+- Tips for system use:
 
 To build the docker image- use the command: 
 'sudo docker build -t <repo_name> .' 
